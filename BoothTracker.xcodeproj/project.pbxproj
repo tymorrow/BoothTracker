@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		E3F9A3342131FBC2004C4907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A3332131FBC2004C4907 /* AppDelegate.swift */; };
-		E3F9A3362131FBC2004C4907 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A3352131FBC2004C4907 /* ViewController.swift */; };
+		E3F9A3362131FBC2004C4907 /* InkPrinterBoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A3352131FBC2004C4907 /* InkPrinterBoothViewController.swift */; };
 		E3F9A3392131FBC2004C4907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F9A3372131FBC2004C4907 /* Main.storyboard */; };
 		E3F9A33C2131FBC2004C4907 /* BoothTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A33A2131FBC2004C4907 /* BoothTracker.xcdatamodeld */; };
 		E3F9A33E2131FBC5004C4907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F9A33D2131FBC5004C4907 /* Assets.xcassets */; };
-		E3F9A3412131FBC5004C4907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F9A33F2131FBC5004C4907 /* LaunchScreen.storyboard */; };
 		E3F9A34C2131FBC5004C4907 /* BoothTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A34B2131FBC5004C4907 /* BoothTrackerTests.swift */; };
 		E3F9A3572131FBC5004C4907 /* BoothTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A3562131FBC5004C4907 /* BoothTrackerUITests.swift */; };
+		E3F9A3652131FD22004C4907 /* Booth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A3642131FD22004C4907 /* Booth.swift */; };
+		E3F9A3672131FDB9004C4907 /* InkPrinterBooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A3662131FDB9004C4907 /* InkPrinterBooth.swift */; };
+		E3F9A36921320027004C4907 /* LaserPrinterBooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A36821320027004C4907 /* LaserPrinterBooth.swift */; };
+		E3F9A36B21320247004C4907 /* BoothTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A36A21320247004C4907 /* BoothTableViewCell.swift */; };
+		E3F9A36D2132063B004C4907 /* BoothTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A36C2132063B004C4907 /* BoothTableViewController.swift */; };
+		E3F9A36F2132175B004C4907 /* LaserPrinterBoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A36E2132175B004C4907 /* LaserPrinterBoothViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +42,10 @@
 /* Begin PBXFileReference section */
 		E3F9A3302131FBC2004C4907 /* BoothTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoothTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F9A3332131FBC2004C4907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3F9A3352131FBC2004C4907 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3F9A3352131FBC2004C4907 /* InkPrinterBoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkPrinterBoothViewController.swift; sourceTree = "<group>"; };
 		E3F9A3382131FBC2004C4907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3F9A33B2131FBC2004C4907 /* BoothTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BoothTracker.xcdatamodel; sourceTree = "<group>"; };
 		E3F9A33D2131FBC5004C4907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E3F9A3402131FBC5004C4907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3F9A3422131FBC5004C4907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3F9A3472131FBC5004C4907 /* BoothTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoothTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F9A34B2131FBC5004C4907 /* BoothTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoothTrackerTests.swift; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		E3F9A3522131FBC5004C4907 /* BoothTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoothTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F9A3562131FBC5004C4907 /* BoothTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoothTrackerUITests.swift; sourceTree = "<group>"; };
 		E3F9A3582131FBC5004C4907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3F9A3642131FD22004C4907 /* Booth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booth.swift; sourceTree = "<group>"; };
+		E3F9A3662131FDB9004C4907 /* InkPrinterBooth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InkPrinterBooth.swift; sourceTree = "<group>"; };
+		E3F9A36821320027004C4907 /* LaserPrinterBooth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaserPrinterBooth.swift; sourceTree = "<group>"; };
+		E3F9A36A21320247004C4907 /* BoothTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoothTableViewCell.swift; sourceTree = "<group>"; };
+		E3F9A36C2132063B004C4907 /* BoothTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoothTableViewController.swift; sourceTree = "<group>"; };
+		E3F9A36E2132175B004C4907 /* LaserPrinterBoothViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaserPrinterBoothViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +110,17 @@
 			isa = PBXGroup;
 			children = (
 				E3F9A3332131FBC2004C4907 /* AppDelegate.swift */,
-				E3F9A3352131FBC2004C4907 /* ViewController.swift */,
-				E3F9A3372131FBC2004C4907 /* Main.storyboard */,
 				E3F9A33D2131FBC5004C4907 /* Assets.xcassets */,
-				E3F9A33F2131FBC5004C4907 /* LaunchScreen.storyboard */,
-				E3F9A3422131FBC5004C4907 /* Info.plist */,
+				E3F9A3642131FD22004C4907 /* Booth.swift */,
+				E3F9A36A21320247004C4907 /* BoothTableViewCell.swift */,
+				E3F9A36C2132063B004C4907 /* BoothTableViewController.swift */,
 				E3F9A33A2131FBC2004C4907 /* BoothTracker.xcdatamodeld */,
+				E3F9A3422131FBC5004C4907 /* Info.plist */,
+				E3F9A3662131FDB9004C4907 /* InkPrinterBooth.swift */,
+				E3F9A3352131FBC2004C4907 /* InkPrinterBoothViewController.swift */,
+				E3F9A36821320027004C4907 /* LaserPrinterBooth.swift */,
+				E3F9A36E2132175B004C4907 /* LaserPrinterBoothViewController.swift */,
+				E3F9A3372131FBC2004C4907 /* Main.storyboard */,
 			);
 			path = BoothTracker;
 			sourceTree = "<group>";
@@ -232,7 +247,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3F9A3412131FBC5004C4907 /* LaunchScreen.storyboard in Resources */,
 				E3F9A33E2131FBC5004C4907 /* Assets.xcassets in Resources */,
 				E3F9A3392131FBC2004C4907 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3F9A3362131FBC2004C4907 /* ViewController.swift in Sources */,
+				E3F9A36B21320247004C4907 /* BoothTableViewCell.swift in Sources */,
+				E3F9A36921320027004C4907 /* LaserPrinterBooth.swift in Sources */,
+				E3F9A3362131FBC2004C4907 /* InkPrinterBoothViewController.swift in Sources */,
 				E3F9A3342131FBC2004C4907 /* AppDelegate.swift in Sources */,
+				E3F9A36D2132063B004C4907 /* BoothTableViewController.swift in Sources */,
+				E3F9A36F2132175B004C4907 /* LaserPrinterBoothViewController.swift in Sources */,
+				E3F9A3652131FD22004C4907 /* Booth.swift in Sources */,
+				E3F9A3672131FDB9004C4907 /* InkPrinterBooth.swift in Sources */,
 				E3F9A33C2131FBC2004C4907 /* BoothTracker.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,14 +323,6 @@
 				E3F9A3382131FBC2004C4907 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E3F9A33F2131FBC5004C4907 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3F9A3402131FBC5004C4907 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -435,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JP2UMN2VS;
 				INFOPLIST_FILE = BoothTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JP2UMN2VS;
 				INFOPLIST_FILE = BoothTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
