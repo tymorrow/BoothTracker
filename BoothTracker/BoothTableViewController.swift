@@ -58,7 +58,27 @@ class BoothTableViewController: UITableViewController {
         
         cell.nameLabel.text = booth.name
         cell.locationLabel.text = booth.location
-        cell.statusLabel.text = booth.getStatus()
+        let statusMsg = booth.getStatus()
+        cell.statusLabel.text = statusMsg
+        if statusMsg.lowercased().range(of:"need") != nil {
+            cell.statusLabel.textColor = UIColor.red
+        }
+        else if statusMsg.lowercased().range(of:"low") != nil {
+            cell.statusLabel.textColor = UIColor.orange
+        }
+        else {
+            cell.statusLabel.textColor = UIColor.gray
+        }
+        let diffInDays = Calendar.current.dateComponents([.day], from: booth.lastUpdated, to: Date()).day ?? 0
+        if diffInDays == 0 {
+            cell.lastUpdateLabel.text = "< 1 day ago"
+        }
+        else if diffInDays == 1 {
+            cell.lastUpdateLabel.text = "1 day ago"
+        }
+        else {
+            cell.lastUpdateLabel.text = "\(diffInDays) days ago"
+        }
         
         return cell
     }
