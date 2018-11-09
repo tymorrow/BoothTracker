@@ -12,8 +12,6 @@
 		E3F9A3392131FBC2004C4907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F9A3372131FBC2004C4907 /* Main.storyboard */; };
 		E3F9A33C2131FBC2004C4907 /* BoothTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A33A2131FBC2004C4907 /* BoothTracker.xcdatamodeld */; };
 		E3F9A33E2131FBC5004C4907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F9A33D2131FBC5004C4907 /* Assets.xcassets */; };
-		E3F9A34C2131FBC5004C4907 /* BoothTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A34B2131FBC5004C4907 /* BoothTrackerTests.swift */; };
-		E3F9A3572131FBC5004C4907 /* BoothTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A3562131FBC5004C4907 /* BoothTrackerUITests.swift */; };
 		E3F9A3652131FD22004C4907 /* Booth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A3642131FD22004C4907 /* Booth.swift */; };
 		E3F9A3672131FDB9004C4907 /* InkPrinterBooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A3662131FDB9004C4907 /* InkPrinterBooth.swift */; };
 		E3F9A36921320027004C4907 /* LaserPrinterBooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A36821320027004C4907 /* LaserPrinterBooth.swift */; };
@@ -21,23 +19,6 @@
 		E3F9A36D2132063B004C4907 /* BoothTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A36C2132063B004C4907 /* BoothTableViewController.swift */; };
 		E3F9A36F2132175B004C4907 /* LaserPrinterBoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9A36E2132175B004C4907 /* LaserPrinterBoothViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E3F9A3482131FBC5004C4907 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E3F9A3282131FBC2004C4907 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E3F9A32F2131FBC2004C4907;
-			remoteInfo = BoothTracker;
-		};
-		E3F9A3532131FBC5004C4907 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E3F9A3282131FBC2004C4907 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E3F9A32F2131FBC2004C4907;
-			remoteInfo = BoothTracker;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E3F9A3302131FBC2004C4907 /* BoothTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoothTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,12 +28,6 @@
 		E3F9A33B2131FBC2004C4907 /* BoothTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BoothTracker.xcdatamodel; sourceTree = "<group>"; };
 		E3F9A33D2131FBC5004C4907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3F9A3422131FBC5004C4907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3F9A3472131FBC5004C4907 /* BoothTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoothTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3F9A34B2131FBC5004C4907 /* BoothTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoothTrackerTests.swift; sourceTree = "<group>"; };
-		E3F9A34D2131FBC5004C4907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3F9A3522131FBC5004C4907 /* BoothTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoothTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3F9A3562131FBC5004C4907 /* BoothTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoothTrackerUITests.swift; sourceTree = "<group>"; };
-		E3F9A3582131FBC5004C4907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3F9A3642131FD22004C4907 /* Booth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booth.swift; sourceTree = "<group>"; };
 		E3F9A3662131FDB9004C4907 /* InkPrinterBooth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InkPrinterBooth.swift; sourceTree = "<group>"; };
 		E3F9A36821320027004C4907 /* LaserPrinterBooth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaserPrinterBooth.swift; sourceTree = "<group>"; };
@@ -69,20 +44,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3F9A3442131FBC5004C4907 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3F9A34F2131FBC5004C4907 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -90,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				E3F9A3322131FBC2004C4907 /* BoothTracker */,
-				E3F9A34A2131FBC5004C4907 /* BoothTrackerTests */,
-				E3F9A3552131FBC5004C4907 /* BoothTrackerUITests */,
 				E3F9A3312131FBC2004C4907 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,8 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				E3F9A3302131FBC2004C4907 /* BoothTracker.app */,
-				E3F9A3472131FBC5004C4907 /* BoothTrackerTests.xctest */,
-				E3F9A3522131FBC5004C4907 /* BoothTrackerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,24 +82,6 @@
 			path = BoothTracker;
 			sourceTree = "<group>";
 		};
-		E3F9A34A2131FBC5004C4907 /* BoothTrackerTests */ = {
-			isa = PBXGroup;
-			children = (
-				E3F9A34B2131FBC5004C4907 /* BoothTrackerTests.swift */,
-				E3F9A34D2131FBC5004C4907 /* Info.plist */,
-			);
-			path = BoothTrackerTests;
-			sourceTree = "<group>";
-		};
-		E3F9A3552131FBC5004C4907 /* BoothTrackerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E3F9A3562131FBC5004C4907 /* BoothTrackerUITests.swift */,
-				E3F9A3582131FBC5004C4907 /* Info.plist */,
-			);
-			path = BoothTrackerUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -163,42 +102,6 @@
 			productReference = E3F9A3302131FBC2004C4907 /* BoothTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E3F9A3462131FBC5004C4907 /* BoothTrackerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E3F9A35E2131FBC5004C4907 /* Build configuration list for PBXNativeTarget "BoothTrackerTests" */;
-			buildPhases = (
-				E3F9A3432131FBC5004C4907 /* Sources */,
-				E3F9A3442131FBC5004C4907 /* Frameworks */,
-				E3F9A3452131FBC5004C4907 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E3F9A3492131FBC5004C4907 /* PBXTargetDependency */,
-			);
-			name = BoothTrackerTests;
-			productName = BoothTrackerTests;
-			productReference = E3F9A3472131FBC5004C4907 /* BoothTrackerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E3F9A3512131FBC5004C4907 /* BoothTrackerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E3F9A3612131FBC5004C4907 /* Build configuration list for PBXNativeTarget "BoothTrackerUITests" */;
-			buildPhases = (
-				E3F9A34E2131FBC5004C4907 /* Sources */,
-				E3F9A34F2131FBC5004C4907 /* Frameworks */,
-				E3F9A3502131FBC5004C4907 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E3F9A3542131FBC5004C4907 /* PBXTargetDependency */,
-			);
-			name = BoothTrackerUITests;
-			productName = BoothTrackerUITests;
-			productReference = E3F9A3522131FBC5004C4907 /* BoothTrackerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,14 +114,7 @@
 				TargetAttributes = {
 					E3F9A32F2131FBC2004C4907 = {
 						CreatedOnToolsVersion = 9.4.1;
-					};
-					E3F9A3462131FBC5004C4907 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = E3F9A32F2131FBC2004C4907;
-					};
-					E3F9A3512131FBC5004C4907 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = E3F9A32F2131FBC2004C4907;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -236,8 +132,6 @@
 			projectRoot = "";
 			targets = (
 				E3F9A32F2131FBC2004C4907 /* BoothTracker */,
-				E3F9A3462131FBC5004C4907 /* BoothTrackerTests */,
-				E3F9A3512131FBC5004C4907 /* BoothTrackerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,20 +143,6 @@
 			files = (
 				E3F9A33E2131FBC5004C4907 /* Assets.xcassets in Resources */,
 				E3F9A3392131FBC2004C4907 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3F9A3452131FBC5004C4907 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3F9A3502131FBC5004C4907 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,36 +165,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3F9A3432131FBC5004C4907 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3F9A34C2131FBC5004C4907 /* BoothTrackerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3F9A34E2131FBC5004C4907 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3F9A3572131FBC5004C4907 /* BoothTrackerUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E3F9A3492131FBC5004C4907 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E3F9A32F2131FBC2004C4907 /* BoothTracker */;
-			targetProxy = E3F9A3482131FBC5004C4907 /* PBXContainerItemProxy */;
-		};
-		E3F9A3542131FBC5004C4907 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E3F9A32F2131FBC2004C4907 /* BoothTracker */;
-			targetProxy = E3F9A3532131FBC5004C4907 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E3F9A3372131FBC2004C4907 /* Main.storyboard */ = {
@@ -455,7 +306,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Ty.BoothTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -473,86 +324,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Ty.BoothTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		E3F9A35F2131FBC5004C4907 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BoothTrackerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Ty.BoothTrackerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoothTracker.app/BoothTracker";
-			};
-			name = Debug;
-		};
-		E3F9A3602131FBC5004C4907 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BoothTrackerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Ty.BoothTrackerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoothTracker.app/BoothTracker";
-			};
-			name = Release;
-		};
-		E3F9A3622131FBC5004C4907 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BoothTrackerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Ty.BoothTrackerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BoothTracker;
-			};
-			name = Debug;
-		};
-		E3F9A3632131FBC5004C4907 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BoothTrackerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Ty.BoothTrackerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BoothTracker;
 			};
 			name = Release;
 		};
@@ -573,24 +346,6 @@
 			buildConfigurations = (
 				E3F9A35C2131FBC5004C4907 /* Debug */,
 				E3F9A35D2131FBC5004C4907 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E3F9A35E2131FBC5004C4907 /* Build configuration list for PBXNativeTarget "BoothTrackerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E3F9A35F2131FBC5004C4907 /* Debug */,
-				E3F9A3602131FBC5004C4907 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E3F9A3612131FBC5004C4907 /* Build configuration list for PBXNativeTarget "BoothTrackerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E3F9A3622131FBC5004C4907 /* Debug */,
-				E3F9A3632131FBC5004C4907 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
